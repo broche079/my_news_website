@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的全方位資訊儀表板</title>
-    <link rel="stylesheet" href="style.css?v=2026">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="header">
-        <h1>🔥 全方位資訊儀表板</h1>
+        <h1>BroChe的儀表板</h1>
         <p>政治、潮流、時尚、股票，全台最新話題一次精準掌握</p>
     </header>
 
@@ -17,10 +17,10 @@
         
         <!-- 導覽標籤 (Tabs) -->
         <div class="tabs">
-            <button class="tab-btn active" onclick="showTab('tab-trends', this)">🔥 綜合熱搜</button>
-            <button class="tab-btn" onclick="showTab('tab-politics', this)">🏛️ 政治與新聞</button>
-            <button class="tab-btn" onclick="showTab('tab-finance', this)">📈 股票與財經</button>
-            <button class="tab-btn" onclick="showTab('tab-fashion', this)">✨ 潮流與時尚</button>
+            <button class="tab-btn active" onclick="showTab('tab-trends')">🔥 綜合熱搜</button>
+            <button class="tab-btn" onclick="showTab('tab-politics')">🏛️ 政治與新聞</button>
+            <button class="tab-btn" onclick="showTab('tab-finance')">📈 股票與財經</button>
+            <button class="tab-btn" onclick="showTab('tab-fashion')">✨ 潮流與時尚</button>
         </div>
 
         <!-- 各分類內容區塊 -->
@@ -151,6 +151,24 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#3</span>
+                <span class="traffic">📰 自由時報</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">沈伯洋肥皂箱活動今捷運劍潭站舉行 活動開始前1小時湧300人提案單秒殺</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5vV1NjSUJRMURQTENtdC1FMllhRW5ncTRpWV9iRDlHVmlEWmZWN1ROdWNMeWpDNkpsdDBaQVFBY2dSUlZOYmJYYmJoQU1KOHI1dG1wbDFLWFMwTkdMZldfVG5KLTNBeUM3QWfSAW9BVV95cUxPZl9abWlfbW9pVmJnQW1wR3ctWTRmRWdSSm1KUl9PeS1zSHBGZ1ZpZE9rWGdnbmtfNVVpSG1XdXZXb3Mza0dzWDQxRm5uQTM3eVRNV0M5bWpSZ3RKNDNTbFdVekRWMzhOTEp1UFZXclE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#4</span>
+                <span class="traffic">📰 Yahoo新聞</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">女共諜監視賴清德兒 鄰居揪一舉動不尋常「1.9億豪宅住2年賠錢脫手」</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMitgNBVV95cUxNbXJ3OWJLeXNMVlZrYnp6Q19XV2RlbGQtYjBHOFFiOUdkc3R4WFp4LWpvS0F0eFN6STliSFRpRElxcF9HZE5EdVRFUGFMZF9jRG9PMGRCdGdTc1d1bjVVek5XZThWeHBxMkVRY2Qyc2cwaFh0MjR3a1VoYkRGOTVpQmZ2LUFGY0JnSV9LTmdCQk1hOXp1V3JYSjEwMWI3NUZoM3E2Y2pJTC1JSFVMRmRWb3luSUp4a3N1eTd6c19DN1FDWXZ1czBrLS16R3lTdTgxdVk2ZmVQZ2JsZ2lUazJzSTBBb0hGQUVzb2FnR3l5Skc4U3E5VmRCYmozV0VwQ1B5bk1Eb3pwcXJIajQzc0FsZ2p4MVFnR3JTeWY3Z1RGWVJxR2R2b3VmNG0ydkZKbEN1eVFOZjgydEt3eXk5NWZtVnB1aE5SVUNlcjk4U1FrX0MyTHQ0ODFZYXRKaTE2RTZkWDJIMUJfUGFwdjVCMzh3NjFpb2F5SEtGUHZwaFVCUC1raUZmVEc3NlUxcC1DSWhCTkVsMlcycnVHTFB0UGlVeW0wZVRTZUJnM0tXbUs2Tjcwb1JteWc?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#5</span>
                 <span class="traffic">📰 Newtalk新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">沈伯洋競辦稱「不支持大麻合法化」 蔣萬安競辦反嗆：迴避問題| 政治</h2>
@@ -159,25 +177,16 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#4</span>
-                <span class="traffic">📰 Yahoo新聞</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">沈伯洋肥皂箱！士林人轟北藝中心「椅子爛」引共鳴 網笑：這才是台北人</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMi4AJBVV95cUxOWFYtTldwcWxMczl2WHkzcEdlYkQ4eFdZRTVBSXBMbjhtQ1g2M3NpVW5SWmdrTnNCTnRsalROeE1LTG1IV25nVlpCcnBhQy14MFZWT2dBcTl0S3BFckVUYVI0Mi1aakx0Wlo2U2VPLVJubFpjbGhZWTdDRURGeW9LQ25DVVJLVDV6Vm1YM044X3c4UENzZHlfTmVFb0JaSkVpWERudXlaS3FiS2dLdmVwVHBhak1IYjEwNkFrUXJMckJhdU45dTF0UnVhR1ljQkpWWkRjUnZGalZnRjY5cW9mY0VUaHhjdFc4cG5vbVRjdDgzdEZEVzZWTWhJLS0teDVTZ3hzaWhmWWUtUUtSQjg1c290TlVNV1lDV2szUFVwb2dzVFpGV3Q5Q3k0SzJMTTlqR29vOHBIZ3ZWam9md2I4eU5qclo5aUtwRElLb0xlN2lMRVdLNkFQZnBxa3BNWHBE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#5</span>
+                <span class="rank">#6</span>
                 <span class="traffic">📰 UDN</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">在美跟監賴總統兒！華裔女房仲首出庭神情冷靜 前鄰居曝1事說不通</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwUHRhbEFOdkpENmNsMXVORVpLSThPd1pMQ3NuOHcxUVVwUml3RnJwaThvZW1Fem0xWUhYTHlCTHBZakRBb05wMnhHRDNtZ0d40gFWQVVfeXFMTXVySGlmOHo4eUNfa3JEVGRrQmlLcG0wMnk4LVpCV2M2a2Fla1lfbnN1N2VJbllLU2dCSDRONHd2cEpCbDAySjUtbDlEa25KRG96ZDhoUFE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">同志酒吧警爆言語歧視惹議 蔣萬安下令檢討：我非常抱歉</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVV9kZHV0ZEt4SEpIYzl5VnFxaVJzemlQMHQxdHc5eTlQYU9DVk41MUxsOFNwWl9YWm84WTJmVnYxV1pPclVJTk85SE40ZEdq0gFWQVVfeXFMTm8wSmlIUkNGTTFxVTMtT0VrR0JKQXNnUmNEbm45Rml3WFM5bXktRExidHlSZlhWM0laaWlBeHJyeFBTRlZQU0xZbkY4a3B4bjN6UGtsQkE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#6</span>
+                <span class="rank">#7</span>
                 <span class="traffic">📰 Yahoo新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">明晨探19度！國慶連假雨區曝 連2天北部、東部濕答答</h2>
@@ -186,20 +195,11 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#7</span>
-                <span class="traffic">📰 UDN</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">丁渝州警告：如果社會被選舉撕裂 國防就趨近於零</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3X3oxSmRQR0lUZEo5ckhfNkR2YzFzd3NYUmdVMDU0SE9WY1VidXR0amlmcUFkNHFsZ0FBdlJRdll5SEtRcEYxd0Nic25zRElQ0gFWQVVfeXFMTWRlamMwQk9tVERGa0d6cDFqb1Nndl9YWERuOElzRUZEMXNxajFiZGc1Y1dtWWRYTFNDbE12MTdaTWpUMUdndFRhNUkzZ2lfNzNTaVoyaUE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
                 <span class="rank">#8</span>
                 <span class="traffic">📰 Yahoo新聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">乖乖罷工逾百小時落幕！成功爭取補償金 遷廠離職最高8個月全薪</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMimwNBVV95cUxQcVVOekEwa3NfVG1hTG5ZeVFnNl9JWVZDa0NBRjdobUFYNU9ZNG1wNVFvU2M3NlBZUDVmS0lJTHhmN2U4VGlIamNmdnFQMVdCaVJfaUl4ZVc2aXE5NmVHSzIzOFVQY1JOa2pkS0pIOEZpQUl6cGZPcGkwUVVXbzBYTHk1M2FzbTJCZWhFNUxHTml6MXEzdmRzYzBOVUY0QlRpWkswcmJ4Q1lEaEdhRXFocW8ycUhQYktHU3MzXzR3SUgtdi10UHNYRVpxclZaUmxRcXhXcG9NQ0JTOUxXb1pDbDlIUTNScW9GWVFxbTlJLUJlMFJsMldLZGIySThDWTQ5S2Nuek9fWkZrQ2gzbkwtNm4zLVdUWFA0OU5hVldPS3NlRURFbkRkNzRZYV91a1BoQlRGeFVIcjJhQmJqX2VmbWlyZVprLS0tTzdadUpudzN6eng5ZlJqZElhNW9XVG1lS294ejRvR3hZM0I1b0lGWmRyMU9OZlRVTUZVbXNuSDdFczBwaHNPVnpCb09JSEs3SkY2YWtCQ1dHbGs?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">明天天氣桃園以北、宜花有涼意 國慶日前中部以北局部低溫探19℃</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMipwNBVV95cUxNVjdtamFBZXJROUg0cFd2ZVNFakhzOGtGRlJ3QzdrNXRfbGJicnVqRjR1aTMzbzNPLW8tZ3JQN1YyckZfU00xZlplTnRtY0NGYl95NkNlVFJud0pMbnpxNThWLS1DUlU0dmtobHN5ay1GdlBLR2MxVFZKbFBHbUtZNkN3c1pNQUtJRnNfVV9MLTRwMkw5Z0dvcF92TGpGeVFUb1FUdTlUMDRiU1VlaVgtZGptbVZSWnBoMU9mXzI2ak43NEs3UWRxTC0zWEhjazdfanF3ZlhwZ3pfMDJwQ3hiY1NvamNuSE1mZDlEaDh5SklDQkppd1h3WW15TkMwaENzWms4S29Lc3NkNV90bzJWNHYzc1V4aURZd29ad2k0cWRsbFVlUHVLNGYxYThoQkNoUm0xbTZEOXZiX3N5NC1hUWtIbmlid21vU29RdDEtVXBzaWw5MXVhMGtSSHI0SU9qTTI4SV9hLURwMHBTbWZvMzJwbVhUUFpRU0Nhd1hIRGxYSHZmQVVtVmpNTVFISHRfYnFFQ0RtY1djSUl2MjA5QjlhY1RnTlE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
@@ -207,8 +207,8 @@
                 <span class="rank">#9</span>
                 <span class="traffic">📰 UDN</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">傳賴清德不挺陳亭妃選市長？謝龍介揭「禁不起本命區敗選」：會動員全黨</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kYkVocVhoRDhITjhyanhtMHVqU29pTkliYnBmX3ZLSURQSmVyVlh2VjBMUVI1enotR3FraktWYVZXajR2aGE3Y0lZQzJORXJWaDFj0gFYQVVfeXFMT3ZWOXBYME81OG1mSG5mRGYxOU9PcGw5QkFsM3RyWmhpQWZ0dllaeW91OTJfbVQwcG1VLS1wQUZFb1d2ZzdMZDRkTEFMV28wakV4MXkxTmFzVQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">丁渝州警告：如果社會被選舉撕裂 國防就趨近於零</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3X3oxSmRQR0lUZEo5ckhfNkR2YzFzd3NYUmdVMDU0SE9WY1VidXR0amlmcUFkNHFsZ0FBdlJRdll5SEtRcEYxd0Nic25zRElQ0gFWQVVfeXFMTWRlamMwQk9tVERGa0d6cDFqb1Nndl9YWERuOElzRUZEMXNxajFiZGc1Y1dtWWRYTFNDbE12MTdaTWpUMUdndFRhNUkzZ2lfNzNTaVoyaUE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
@@ -223,19 +223,19 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#11</span>
-                <span class="traffic">📰 UDN</span>
+                <span class="traffic">📰 Yahoo新聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">吳志中「徐佳青要顧兒子說」惹議 外交部再發聲回應</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jejBDRGwyelNndzZ4SlFPVkN6VVM1SFdJdDc5aVR0aUhCN1JOSHprWWprM2c0Vm15TzZyVWtjZmpNWG13T1NreVBHWjJXMm5p0gFWQVVfeXFMTV9nM092bkNSSFNQR1piOWh1T0hWdlM0RUVqVHI1VWRWbEtaRzVpQUpwNTd6eXVGeGJZQmpPeklScTlaNExxa1dfTldQS2dpVUowTlFGaVE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">乖乖罷工逾百小時落幕！成功爭取補償金 遷廠離職最高8個月全薪</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMimwNBVV95cUxQcVVOekEwa3NfVG1hTG5ZeVFnNl9JWVZDa0NBRjdobUFYNU9ZNG1wNVFvU2M3NlBZUDVmS0lJTHhmN2U4VGlIamNmdnFQMVdCaVJfaUl4ZVc2aXE5NmVHSzIzOFVQY1JOa2pkS0pIOEZpQUl6cGZPcGkwUVVXbzBYTHk1M2FzbTJCZWhFNUxHTml6MXEzdmRzYzBOVUY0QlRpWkswcmJ4Q1lEaEdhRXFocW8ycUhQYktHU3MzXzR3SUgtdi10UHNYRVpxclZaUmxRcXhXcG9NQ0JTOUxXb1pDbDlIUTNScW9GWVFxbTlJLUJlMFJsMldLZGIySThDWTQ5S2Nuek9fWkZrQ2gzbkwtNm4zLVdUWFA0OU5hVldPS3NlRURFbkRkNzRZYV91a1BoQlRGeFVIcjJhQmJqX2VmbWlyZVprLS0tTzdadUpudzN6eng5ZlJqZElhNW9XVG1lS294ejRvR3hZM0I1b0lGWmRyMU9OZlRVTUZVbXNuSDdFczBwaHNPVnpCb09JSEs3SkY2YWtCQ1dHbGs?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#12</span>
-                <span class="traffic">📰 三立新聞</span>
+                <span class="traffic">📰 UDN</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">警搜同志酒吧出事！前員警：蔣萬安也要背鍋　他們歸你指揮、管理</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuN21JVkRoZ3hFaEZMZkJHdlA5Rzl3d2tVRmNsUWthVGU4N3ZGU05jUkZ1a0ZWNUVzSFNPVnVLT2NnVXFod2ZTZNIBTEFVX3lxTE9ZMTJuSnhzTVA2NkxBQ2NTZmwxNm8wM2dLelh4NXNKUTJRWGZJTHZCUGtCb2MxcXlNWjY0ckZpbzFNT2FYdzlNaUdqZm0?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">傳賴清德不挺陳亭妃選市長？謝龍介揭「禁不起本命區敗選」：會動員全黨</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kYkVocVhoRDhITjhyanhtMHVqU29pTkliYnBmX3ZLSURQSmVyVlh2VjBMUVI1enotR3FraktWYVZXajR2aGE3Y0lZQzJORXJWaDFj0gFYQVVfeXFMT3ZWOXBYME81OG1mSG5mRGYxOU9PcGw5QkFsM3RyWmhpQWZ0dllaeW91OTJfbVQwcG1VLS1wQUZFb1d2ZzdMZDRkTEFMV28wakV4MXkxTmFzVQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
@@ -250,6 +250,24 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#14</span>
+                <span class="traffic">📰 自由時報</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">民眾黨爆「一家三口寄生僑委會」徐佳青：家人自費搭機看我應是基本人權</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8xaGNGOWk2WGVtbGxvM2xMT2tWZTNLM3FJNmlwcHlEdWhmdXRaSnk4Y0hMTGxUS0xRWTBHUVB0Tl9tNmgxV0UtYTVVZElXNFhhNTRlZzg1d2wxTm5sazFRUG01dC05cXVIZWfSAW9BVV95cUxOWmhqYmY4Zm9vMlpINEZyaksxZlNnWEJpTzlyTE5fQ19hdTF0XzZGdUdRTk0zbmFsVm9UVmhLbnBXNEpGNks1dUhWR1FGeGJHck1PYUNrclljUy1MQW1ibjZVbzZKaUxyV0FmNjU4VGM?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#15</span>
+                <span class="traffic">📰 Yahoo股市</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">房市警報還未解除？李同榮：預售屋解約流動性風險增高</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMihwNBVV95cUxNZGl5Z2M3THlOamY2SjZvN29UYTZ5S1BBZExMcFdZODlGR08ybXRNeTdFVmNCSDI5eHJ2enBzbG45b05ENHl6TF9QOENKRnhNSXZjY0pIX05MdVRXVkZSRHZVekd6QXh5ckVIRkUybllZbXl1VnZOQkRWa1kzNTF4WWxqZE9TWk5mY2ZwZHdncExSX1ZibG9uQzBHNUF5U0o2NjQwbWhEMkVULWJQbGRuaTR4OE9sLTJTMHlyUTE2V1VjU3d6MkZUTDhiTkZZcmZZdWZ5RWdPbkVtd2dlNmNIX09zamo3a2JWOW45T0lPZFpyeGR6dWh2c0xkSFdhbEkydTEyUG54TGhqRXN2bUhDYWtINDNUcFQ2cTRRSkx0WXRkT1dDc2NjRWY2eFVJTkhESGpqUGtCWXVPNlMwLXhmQV9mT0tkQjYtTnRtZUxGVGdpRDgzd183bDdISUdXemF0Z2tERFBDNVJrcVFid1lxbklja1lfeHJERDZsTUlNc2hrUXUwSU8w?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#16</span>
                 <span class="traffic">📰 今周刊</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">統一發票千萬獎尋人啟事！全家10元買飲料、711影印...新北苗栗雲林：21張「消費地」一次看</h2>
@@ -258,16 +276,7 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#15</span>
-                <span class="traffic">📰 地產天下</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">預售屋爆「解約潮」！全台10大重災區桃園佔半數、台中「這區」解約近百億</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQT3NoZXpTbnVLV0hGNm10NzlKUDFpM0FLWnFzS0N4XzBUN3NsSkFVbXl3eWFlWEw0UHdNYjFzUUcxTDdMSmItYi1sOWZLOWkw?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#16</span>
+                <span class="rank">#17</span>
                 <span class="traffic">📰 Yahoo新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">國慶連假國5恐塞到深夜！「最慘時段」曝光 搭客運省60分鐘</h2>
@@ -276,7 +285,7 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#17</span>
+                <span class="rank">#18</span>
                 <span class="traffic">📰 三立新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">沈伯洋、蔣萬安激戰最終結局？黃暐瀚曝「1族群」決定勝敗</h2>
@@ -285,29 +294,20 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#18</span>
-                <span class="traffic">📰 NOWnews今日新聞</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">2026重陽節敬老金發錢！最高70000元　全台時間、金額、領取方式</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzQU9MdDdBcXp6Q0Uyd2JNNGdqdVVYaUg2X0xQcjYzbFAwTy16ZlNOckJRRTFwWjE4b2pucDBlZXpqai10UDE3LW0wRHDSAVJBVV95cUxQY1VGRFFkUXhGYjBKNDI5a2J5VS15WWYza0l2SEYxYXlTVjNVYXpvX0cxcE1MS2UtOTBDVFdCdnk0a01RZDBxUmwxMXV1Rm9sR1R3?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
                 <span class="rank">#19</span>
-                <span class="traffic">📰 中華民國國防部- 全球資訊網</span>
+                <span class="traffic">📰 中時新聞網</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">全球資訊網 - 新聞與公告 - 區域動態 - 中共解放軍臺海周邊海、空域動態</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sLUI1UUQwSVF2WGhMUm9KcGk5TU43MkZDRUlpRkNtRlFjSGpIdFcyTVQ3QjRjdzBrR1p5VHZ4SWh0N1pTM25DTkxocjZ1MnpSWGc?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">柯志恩對決賴瑞隆 高雄「最大票倉」街訪民調跌破眼鏡</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBPcDl4QV9GX2J6a3dVSGE4bHNKMEtod2ZQd293Z3dlcUhkd3FZcHNmT1hTVUpybWFTTUdZaXBDcEE5ckpDOUxFdjJLUWhDWVpwMEF5aENWanQzeGREWG04Q3JuZWlKTkxCUmRwdzJ3?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#20</span>
-                <span class="traffic">📰 Yahoo新聞</span>
+                <span class="traffic">📰 UDN</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">矢板明夫遭毆案主謀曝光！香港黑幫開「一拳1.2萬起」 成員退縮竟再加碼開41萬</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiugNBVV95cUxQUUM2Z1JjcGdTUkdkR2FSRmVvMWFQTWdRcnBOVGE1Ri1FY3dMY1V3a3A4S0VlSE51TU5aV3AybTVSNnZuMXI4cVdfSzJSaG1iVE1vV2JENDREV1BaRlN3SEZuS3dra0UzSEJuVDRqMWNETkFhbjVCVmVMajRGQ0Y1UEhobHZGVmM0TEowTTJsVVFkcUJ2SkwxOEtqbUhSRFlNUjJCR0ZjaFBkZ2hmQjUxUFE2YjVsQUhqN3J1U2ZHOThTZWlsbldCcjFacVowSVNTWktHQ240Ul9QMk55V2ZaaTdfYTdjSUhiWUx3eUdSU1poMGJoRy1PQS1DbkJIdTlSeThidndrUFk2OFZ0TkFnbkVob0ktZWh1V3VoZDN3MDZlU0REb2hJZlN6SHNFVzRaV1JkUHJOMXl5cjBQR1FLZllIQ3pHRWhweGdPTkVHYXhOREVrdWdGTGdWMTRkZGlianRMdkprWW9aZ3c5c3ZxVmQxYlhHLTVnOGhobDg2M2tMZGdGd1BxTmNMTUMyb2laNWNvT3RLWmRPWVNJWXFhSDBTVGFJQzZfRWoxaEFWV0lyb2dLcjNEOFdR?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">1拳10萬港幣 痛毆矢板明夫香港黑幫背景曝 檢斥暴力箝制我國言論自由</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGSkI5MEhZT2hfZUhURnhncnZTb0ZwbFYxY1NVX0xTZkFCaWZIU0RUdTUzOHR6R1Z6ejhUOTh2c05tTkN6cllyMFkzTEVYd2cw0gFWQVVfeXFMTmNCU0ZsenY3RGw2a04wdzltenNyN1RsZTQ3TzJib05yVnIwWGRtZ1JNaWsxemtSUmo5Nm9BSlRGZjQ1U01ZZFdQVm1MUzBhRzAxYjlyWkE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         </div>
         </div>
@@ -335,6 +335,15 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#3</span>
+                <span class="traffic">💰 工商時報</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">聯電下跌原因找到了？可轉債引爆賣壓、法人狂砍12萬張分析師揭反彈關鍵- 證券</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBc0prWlVvdHhjc3A5d2hzY3hFMkhrOVJLdGFyUEFJS0pIUTI3SVVERFZaUWR2NGFwOVhsZ2dZcGNBcHozaG01cm90dEVfSUNWUjFvYUMwY0ZBLUlhM1BJ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#4</span>
                 <span class="traffic">💰 ETtoday財經雲</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">黃仁勳神秘帥女婿曝光！35歲前滑雪選手「2年升副總」變輝達軍師</h2>
@@ -343,16 +352,16 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#4</span>
-                <span class="traffic">💰 工商時報</span>
+                <span class="rank">#5</span>
+                <span class="traffic">💰 鉅亨網</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">鴻海營收炸裂股價跳空大漲法人喊出「3字頭」目標價- 證券</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUUQzMERKbGk2dU9SWV8tMlFybXlFQWhsOFpYc2tJbzFJNkQzZG5CU0hJR1NPS0FiMFY2aG1rSjBtZmc5T3hzWl80Z25NV2xuSlpnN05VSmJiOVVja0Nr?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">〈台股盤前要聞〉鴻海9月營收首度破兆、台股創高劍指5萬點</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLZHRRSnB3T2Q1SU1ESnhlM1Rad1hndmVMUUQ1QUlObXRsU3NqTkVHQkdEaU5JWXJaRHl0enNLeXFXQTd1REZDV3BoOVBwQVk?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#5</span>
+                <span class="rank">#6</span>
                 <span class="traffic">💰 東森新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">5檔飆股明起抓去關！它最慘「每25分鐘撮合一次」</h2>
@@ -361,7 +370,7 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#6</span>
+                <span class="rank">#7</span>
                 <span class="traffic">💰 Yahoo新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">蘇姿丰快閃訪台！親讚李飛飛「了不起」 自爆：我是她的粉絲</h2>
@@ -370,25 +379,7 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#7</span>
-                <span class="traffic">💰 中時新聞網</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台積電全球大擴廠！打造「秘密班底」這4家台廠跟著吃香喝辣</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9FY2pSdl8yS0JpOXNaU2J5ZnZiakZlUGRHYlk5TkZEaHFKYUJaX0dOajBxRWIxMmswNXpsT1RBQkhPV0ZuR25hMWtpaWZMUWhRNF9zMGdDSzhabDlaLWlWbXplNU9PZXFaZUxMS2ln?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
                 <span class="rank">#8</span>
-                <span class="traffic">💰 UDN</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">聯電18億美元可轉債完成訂價、外資竟大賣8.1萬張 股價失守月線</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PYk9jTm5WTFRBTExIQjNjR3E2MENmZHNPZzMycVlJRm5vYUVpNDJPUGthbi1TT2lGMUhEWG9ET1hCOEdjd3NWMEl1cWtXTDEx0gFWQVVfeXFMTTVVb0sxa09PYUc5V2h1SWV0YVBfZ0lKRURmVDExVGI0NTZRUHk0V2EycV9OX3FvOGl3aG1xS0EyMlJUbURmZk4yR3JMTm5Hc2FfUkNtUVE?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#9</span>
                 <span class="traffic">💰 自由財經</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">哲哲怒轟大砍員工AI token使用量？ 聯發科回應了</h2>
@@ -397,43 +388,7 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#10</span>
-                <span class="traffic">💰 Yahoo新聞</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">南亞科9月營收後 新目標價曝</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOczg3UFFPZDNua2wwdW1YS1g2SGc1WXYtYjBWQm5aaURaSHd5RFZ1a05sRGJrSkU5MnppOVYzVEhsQkc2RXBId2tjU3U5VWJMN2s0OVJfYXMwR0s1czEwZVk0OVg2cGxobXZfWWdlQU1LTEFkUjFicGlnQzdYV25JRFg3dlo4VTdJR2tOUFRZMnRXV3ZoRXZKUkdJLVJ4NFpudVBkVUxocHVobG04ODlVV00tOElfNUJVbTk5Tmw2eGZxZ1JDY19YRUtkMFd3WGM1M2NKbzV3Slp4UmVfSWhrZndEdTJUdw?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#11</span>
-                <span class="traffic">💰 鉅亨網</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">蘇姿丰：AMD將再擴大投資台灣 產能規劃已拉長至3至5年</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tdFpRUlkyVFY4bVR2TTZnelZKMkpKbExNNUdKQlFXSEJSd3NqazJsUlFIbllJODduekk2eHVjdEk0dGhfclRHOHBZajhCRzQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#12</span>
-                <span class="traffic">💰 Yahoo股市</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">9月營收衝破250億元創高！「晶圓代工廠」今收跌3.28%連2日收黑投信重砍5.9萬張抽回87.7億元</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMi5wJBVV95cUxPTExzaXAyLW9ubHN5Yk9vSlFHM1VQLV8tUE05QzBNTWwtR1pmNi1FRTFHVkx3S2VPcU1FT0RsWXpCcDMxYVNzd1NOdHhWVkJsQjkzX0JmMFVnY3JKMVVXR1JfRlNPY1o4QU5FelV3eHMwcmRNTF9PamVZTzRmUjVPTlh1QXBZcWlZRUl1M0djNk5CZ3ZTUUc3UjM1RG81YjFnaktiRmFPMkN6aDVrM2JNcGhfZjBsSk9ocTVrYk1zTkxxdy1Sel9jNTZmZG1Wdm1seThweTRUb3dLRGNicGMtR0pIT3RnRDhYRnR6YXhNSU5zMG52LVZ1QUhGeE93YU5WZ19XMzhGUzlWbDRnWEUzU1NVQ0h6c3ZXcW9MVGJZemR3TkRiRXhBSUdHeHVqSkZ1djZ0YmxiVHBFVDNBMWIzaF9yVW1PQ090Yy1lUE54dkZMSVBGMkdOVjlfa3FLdE8zR1dNVl85OA?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#13</span>
-                <span class="traffic">💰 中時新聞網</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台股創高後恐反轉？投信賣超158億史上第4大 外資也調節</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE8xN3QtUGdNQ2RldG1uTDdCNllWMXlHcUI1LXdTa1ZfY1ZfWnJrdV9Ec2l3ZTJPUnFKVV9ZbktLWXFEWjNMVUJNWHk2UnlCdy1ZMVFic2FJNU1JTGFLLU1MeDJMUkR3TDBZS1lYLTNB?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#14</span>
+                <span class="rank">#9</span>
                 <span class="traffic">💰 今周刊</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">華邦電、南亞科、旺宏、力積電…記憶體股都在跌要選誰？這2檔外資超挺買超快12萬張！最新目標價曝光</h2>
@@ -442,7 +397,43 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#15</span>
+                <span class="rank">#10</span>
+                <span class="traffic">💰 UDN</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">美股早盤／標普、那指刷新盤中新高 輝達再寫新猷、聯電ADR跌2%</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VcS01aG16Ui0xelNpRm11ZEJoR25VM000WXd3ZWdWSjI3X1pGUkVJOTRpSVRPSHEtWW1MRjVha3ZWY21VTFhKUnk3cWw0aHQt?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#11</span>
+                <span class="traffic">💰 Yahoo股市</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">9月營收衝破250億元創高！「晶圓代工廠」今收跌3.28%連2日收黑投信重砍5.9萬張抽回87.7億元</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMi5wJBVV95cUxPTExzaXAyLW9ubHN5Yk9vSlFHM1VQLV8tUE05QzBNTWwtR1pmNi1FRTFHVkx3S2VPcU1FT0RsWXpCcDMxYVNzd1NOdHhWVkJsQjkzX0JmMFVnY3JKMVVXR1JfRlNPY1o4QU5FelV3eHMwcmRNTF9PamVZTzRmUjVPTlh1QXBZcWlZRUl1M0djNk5CZ3ZTUUc3UjM1RG81YjFnaktiRmFPMkN6aDVrM2JNcGhfZjBsSk9ocTVrYk1zTkxxdy1Sel9jNTZmZG1Wdm1seThweTRUb3dLRGNicGMtR0pIT3RnRDhYRnR6YXhNSU5zMG52LVZ1QUhGeE93YU5WZ19XMzhGUzlWbDRnWEUzU1NVQ0h6c3ZXcW9MVGJZemR3TkRiRXhBSUdHeHVqSkZ1djZ0YmxiVHBFVDNBMWIzaF9yVW1PQ090Yy1lUE54dkZMSVBGMkdOVjlfa3FLdE8zR1dNVl85OA?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#12</span>
+                <span class="traffic">💰 鉅亨網</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">蘇姿丰：AMD將再擴大投資台灣 產能規劃已拉長至3至5年</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tdFpRUlkyVFY4bVR2TTZnelZKMkpKbExNNUdKQlFXSEJSd3NqazJsUlFIbllJODduekk2eHVjdEk0dGhfclRHOHBZajhCRzQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#13</span>
+                <span class="traffic">💰 Yahoo新聞</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台股逼近5萬點！一表看懂「主動式ETF誰最強」 專家揭它爆衝8%奪冠原因</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiiwNBVV95cUxPSnJwOHBaT1o5dkJ3OEVKS2YxTGh4cTRxbElsVEJBblFnWnlrQXppUXVxQUFTazJmbDJDVnpLanBGUG1wcFZKZi1CTldteTRnMFVGQ3ZDY3ZSVnprLUluZ29DVHRlRFdBdzhzUjJZS2pUV05mZVBDaXZ4SWRlQlEtRTR5Y0V4N0FvN1drUXc2QzBPemthN0pGTkZkRFBEV2VZRGdaSV9GRFJRdzN0cXZGTVp2OWxhcmJRZnFEQTJPV1FmLWFNNmNnWFFnUjQzbTNnUzNMRmdTRVdweDlvaEx6cXppWkVXMUJQcXcwdlY5QVpxbVBlZ3lnN3pqb2JHRUtYaXJYUDBVM3hEYlBRZzFSUG1WbVNuSWxNYk8zQ3pHMFllT1VaWkNiUDE4UzNWbElBU25UaGc3Mjd1VHBOd3B0NTd0cWtiT0ktTUdtdHI2emxoanJvTlgyakZ6dXBvSTRNbDl5d2ZuMVR1OTVzWUhqRUJtdm0xVG1LWEI3ZzZHTW1XYkxNOUJFZ0d1Yw?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#14</span>
                 <span class="traffic">💰 CMoney投資網誌</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">【最新消息】CCL三雄9月營收攀峰點火，「8檔PCB材料設備概念股」同步轉強！-CMoney官方</h2>
@@ -451,47 +442,56 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#16</span>
-                <span class="traffic">💰 TechNews 科技新報</span>
+                <span class="rank">#15</span>
+                <span class="traffic">💰 自由財經</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">N2、N3 供應續吃緊！高盛上修台積電明後年資本支出，目標價喊上 3,300 元</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lSzlCMzNLOFRlUjU0TExUMHJHNm01NVQ3am9PaUZYcXlqbWVjbEVZYld6YTdFNi10cXgtUXlFVXlhTFVvUkp4dHY4dV9JZ0xVdUxaYjhWNE14dkZTZDdEajNXNks?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台股連2天創新高！外資反手狂砍「這檔」近30萬張 59萬股東慘了</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJVTF4WEhXYUk0dkE5QkJ0eGo5aEtvRXdoZGhQaFRKQ0pqak5kYmdEVnJlRkFLY1ctMG4xdTdUaDV2Q1hhaGJGN2gxSUNNckxwd1UwU0ZQSGFZUENNcWJZ0gFkQVVfeXFMUGlWUFhndHFLcVg5Ml9rSXdxc1lQaUlFOGVOV3lGYzZ3ZldRd3l5X2RpWFMtOTRqWERPa2l4dm93TXc0T3VXNmxDZkkwVjVnSVZJLXFYaTVPSDI0U2tzaU42T05EVA?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#16</span>
+                <span class="traffic">💰 工商時報</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台積電創高法說前內外資上調目標價知名分析師開出突破3千元的條件- 證券</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KZ2Zrb0tfWHRXTERVYnhjMkhHZnhhS3IxUG5lVGdBeklVelZmMDgzbkdfQWNqTEt5d0l4NXFFMnhCVXJyT1NLdkNGWkNuZG1aMVdlMzExeTJiMXpDZmdz?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#17</span>
-                <span class="traffic">💰 鉅亨網</span>
+                <span class="traffic">💰 Yahoo新聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">〈美股早盤〉AI熱潮與油價降溫聯手助攻！主要指數開高 標普500刷新盤中紀錄</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1cjJSZFhCaTlYZTdpdVp6dzFWWDNaaTJCQnFEdGxrRWo2M0NZdndaZU43LU9vS1c1LTJHQk5VWFZLY1NlRnVXQktSUzlZOXc?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">【美股盤前】輝達市值10兆倒數？外媒預測「這時」達成</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMivwJBVV95cUxOVUc0ZTZGTTItRDNVdjZXQUNNdU5ualc0NkdqTVNYM3BIZnoyWG40ZTJ6ajFaeVE3dGVBd25Ya251OHFnRS04aF9XM1FycVZQcTJUVDlqZHh5WDZ3OEhrMjlHRUhpOXlva050UzFJekxkUW1jdTh0NUNKYXRfZWdPanRpdV90Y296WW9nUVdBRGY0a0hKbUN1OThMTExWNUkwQmVaMEVvSWJrUHRaVkc5bXlfdXlMa2x6RU1ManRCMFVleEpNaEs4X3Y0dDdrb1hlS2NDWWJtcGluMVJlcW9lTWVTbVpUZmdqMXJLcVlzN2tqdXFQNUtBbXROa2o0djhpZk5WNUpLYXpSVWZwM3VuZVV2cmRkTzVWX1JhdVRxbzNYX2VwNHJVd0gxM2Fud1U3bU83N0VZZXMzQXJVWG4w?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#18</span>
-                <span class="traffic">💰 ETtoday財經雲</span>
+                <span class="traffic">💰 工商時報</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">快5萬點「別亂踩煞車」？財經作家勸買2檔ETF：把握台股大行情</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iR0VNUGFNZU81cjZKS3ZCSU1nbEhvanVIc2xFSm5GYWtxV1JWeU90Y2JZa2QxRi1lUkU1cnNpMUdfTmtZWlRyOFJROV92VHJqbmfSAVBBVV95cUxNamhBbURpTzVYV1YyMVo5eElZc0R0Q19QUFk4Q3E4bmpjeHRHckdZN2t2LUZIeE5PV1V1ZUFQQ1lLb2FDbXZfbnNFbEx4TWVMVA?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台積電突破天花板萬潤、帆宣等「積友友」概念股亮燈表態法人：明年先進製程全線調漲- 日報</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYbjYxS2k5TU1CWndQSHBwZHVYbXNXSHpsZkF2LVI1YUEwcnhBTTZYelh6QllmTDAzelVIMWRwMHBManJJRU1POE1HMWNqN0RHa2ZXdnNab2R3QlRGRHAw?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#19</span>
-                <span class="traffic">💰 工商時報</span>
+                <span class="traffic">💰 中時新聞網</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">外資點火資金行情ABF躍第四季最強AI次族群- 證券</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuaUloME5qWENzOXNDbl9ROUJrTlNXWE9nTElvd1Bvc3A2VmhVV244bklEWGc4S19VcFM4OW43djJNREROemJLRWk2ZndwLXJhdDlHblk0RkFXbEtBYmVN?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">台積電全球大擴廠！打造「秘密班底」這4家台廠跟著吃香喝辣</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9FY2pSdl8yS0JpOXNaU2J5ZnZiakZlUGRHYlk5TkZEaHFKYUJaX0dOajBxRWIxMmswNXpsT1RBQkhPV0ZuR25hMWtpaWZMUWhRNF9zMGdDSzhabDlaLWlWbXplNU9PZXFaZUxMS2ln?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#20</span>
-                <span class="traffic">💰 Yahoo新聞</span>
+                <span class="traffic">💰 自由財經</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">【美股盤前】輝達市值10兆倒數？外媒預測「這時」達成</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMivwJBVV95cUxOVUc0ZTZGTTItRDNVdjZXQUNNdU5ualc0NkdqTVNYM3BIZnoyWG40ZTJ6ajFaeVE3dGVBd25Ya251OHFnRS04aF9XM1FycVZQcTJUVDlqZHh5WDZ3OEhrMjlHRUhpOXlva050UzFJekxkUW1jdTh0NUNKYXRfZWdPanRpdV90Y296WW9nUVdBRGY0a0hKbUN1OThMTExWNUkwQmVaMEVvSWJrUHRaVkc5bXlfdXlMa2x6RU1ManRCMFVleEpNaEs4X3Y0dDdrb1hlS2NDWWJtcGluMVJlcW9lTWVTbVpUZmdqMXJLcVlzN2tqdXFQNUtBbXROa2o0djhpZk5WNUpLYXpSVWZwM3VuZVV2cmRkTzVWX1JhdVRxbzNYX2VwNHJVd0gxM2Fud1U3bU83N0VZZXMzQXJVWG4w?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">瑤池金母幾乎出清臻鼎！ 今日大砍3482張</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pby1iYnNLN0F3VzZKaHNITzVrVXNCSm1SME1obWtPcEtKTXZTX3drTl9ZVzVybGQ4d0prTkJCN0ZaTFpzZWhPZlc2dFZ4R1B3ZkRSQUJPSE1OM0UxLVhv0gFkQVVfeXFMTmtkR1EwbUFBeHZBXzZPWFZvai1mbTViSDIwWHNvZWtITkNVbm5URkpNMlhrZEJZeXNraTZ4RjJEVHpzeFptSEVHeHZvcV9zcVZwOFNlampCZU5EV0hCZ1BVWGxuYw?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         </div>
         </div>
@@ -510,15 +510,6 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#2</span>
-                <span class="traffic">👗 三立新聞</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">無法陪走最後一程！陳隨意「小女兒」病逝痛哭　妻哭喊：心像破一個洞</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKb1AtTU9mZm0xTnpINEdmWmtZOFU1MWktZWJDdUw5Tk5wWWl1d2NwRTNUcjZ6bnVZX1BOMGNlN1VieEpwY3F1StIBTEFVX3lxTE1ITGpNejdRemV6ZmpwOWF5cUpMU1dSMmp3UVZzcE5xNDNQMnNEWkpaM2RBRHFwcnNPeXZEZkZWdmNES0IxQmxtSExGc3o?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#3</span>
                 <span class="traffic">👗 Yahoo新聞</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">聶雲睽違20年再戰金鐘！曝張菲近況 加碼宣布好消息</h2>
@@ -527,20 +518,29 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#4</span>
-                <span class="traffic">👗 噓！星聞</span>
+                <span class="rank">#3</span>
+                <span class="traffic">👗 Yahoo新聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">小S帶香檳蛋糕冒雨赴墓園！淚祭大S「50歲冥誕」 具俊曄、黑范夫妻齊聚</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iT0w2WmRSVmtFYmtadElwM21NNXNmRzJKSGR5TGtpV0FOMmxidUZtQjNNQmZ0d0tXSkpYU1gyM2RSRC1pYkhNaGFPYWtxT3FRTGlrc21EczNaZ9IBX0FVX3lxTFBKLUFHVkJ4UGtWcGtsWXZWcDc3MlRtY1pnZEpRTEExNGdBSlR2SDdibnh1WVJPOHA0YWtxV0xES0hzQV9pQkhnZ3oxSGJGaktoUnRWekdDYlFiYUFRVmdB?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">徐若瑄口內開3洞割甲狀腺癌 昔拒穿長袖藏20年巨疤 為公益剪爛T恤秀蟹足腫</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMizwNBVV95cUxQS3JJcXYzTnlWdkF3bGhXN1R6MmR5UTI2N0o4WVBZaVZwMzVYQkxGbjdpWEx2NEdaNDdMazZETjNHdnJpcmxPa04wMnUyWDF0bVBJSTJlR1owZ3NaTllFZ2hfR1VVSmNVQk1WTDI3UDhWSWM3YkplWENndzlWQXdmQVl6eUVJSWhuQmlFOHBLdU5Uek9pOWhFY2xyWU85Q1hLek05TGV6QVRNVmtEbUVrU1VJdXNjLWRoMjVaWDhzUThHSGNLNl9jOVA2ZUkxOFVZeXZUUklqYV8yOGRGNE1CWC1iTUVNUG1fQTMzT2JSMFlEUkhOZlVKY2FYZVNaZ2E3dGw0ckg4dHYxQ3B2cnU0RFpHOWJvTUNVekdpZ3JvWm53ZGh6Q0NmNDFBTVgwaXVjQkYwUWVDaFExbmVIcnhnN0xhU3RfbmQ3d3UtMG9EcGFwb1VEMkw3bG5CX19qeE9JUl9tREhzYTNBV0tLeHFMb1Z4cVNSYWZvYV9IdUd1dDg4UGxhbVFING9yWE4yczZ5MzRXSHlSWWFsVUc5b3BRNkdUVHlKb2RodHBsVFNZMXZyOTJkWEN2SkVMUW5DXzU0ZFphTnFHUjcwdUFDVVc0?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#4</span>
+                <span class="traffic">👗 三立新聞</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">無法陪走最後一程！陳隨意「小女兒」病逝痛哭　妻哭喊：心像破一個洞</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKb1AtTU9mZm0xTnpINEdmWmtZOFU1MWktZWJDdUw5Tk5wWWl1d2NwRTNUcjZ6bnVZX1BOMGNlN1VieEpwY3F1StIBTEFVX3lxTE1ITGpNejdRemV6ZmpwOWF5cUpMU1dSMmp3UVZzcE5xNDNQMnNEWkpaM2RBRHFwcnNPeXZEZkZWdmNES0IxQmxtSExGc3o?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#5</span>
-                <span class="traffic">👗 Yahoo新聞</span>
+                <span class="traffic">👗 噓！星聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">徐若瑄口內開3洞割甲狀腺癌 昔拒穿長袖藏20年巨疤 為公益剪爛T恤秀蟹足腫</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMizwNBVV95cUxQS3JJcXYzTnlWdkF3bGhXN1R6MmR5UTI2N0o4WVBZaVZwMzVYQkxGbjdpWEx2NEdaNDdMazZETjNHdnJpcmxPa04wMnUyWDF0bVBJSTJlR1owZ3NaTllFZ2hfR1VVSmNVQk1WTDI3UDhWSWM3YkplWENndzlWQXdmQVl6eUVJSWhuQmlFOHBLdU5Uek9pOWhFY2xyWU85Q1hLek05TGV6QVRNVmtEbUVrU1VJdXNjLWRoMjVaWDhzUThHSGNLNl9jOVA2ZUkxOFVZeXZUUklqYV8yOGRGNE1CWC1iTUVNUG1fQTMzT2JSMFlEUkhOZlVKY2FYZVNaZ2E3dGw0ckg4dHYxQ3B2cnU0RFpHOWJvTUNVekdpZ3JvWm53ZGh6Q0NmNDFBTVgwaXVjQkYwUWVDaFExbmVIcnhnN0xhU3RfbmQ3d3UtMG9EcGFwb1VEMkw3bG5CX19qeE9JUl9tREhzYTNBV0tLeHFMb1Z4cVNSYWZvYV9IdUd1dDg4UGxhbVFING9yWE4yczZ5MzRXSHlSWWFsVUc5b3BRNkdUVHlKb2RodHBsVFNZMXZyOTJkWEN2SkVMUW5DXzU0ZFphTnFHUjcwdUFDVVc0?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">小S帶香檳蛋糕冒雨赴墓園！淚祭大S「50歲冥誕」 具俊曄、黑范夫妻齊聚</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iT0w2WmRSVmtFYmtadElwM21NNXNmRzJKSGR5TGtpV0FOMmxidUZtQjNNQmZ0d0tXSkpYU1gyM2RSRC1pYkhNaGFPYWtxT3FRTGlrc21EczNaZ9IBX0FVX3lxTFBKLUFHVkJ4UGtWcGtsWXZWcDc3MlRtY1pnZEpRTEExNGdBSlR2SDdibnh1WVJPOHA0YWtxV0xES0hzQV9pQkhnZ3oxSGJGaktoUnRWekdDYlFiYUFRVmdB?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
@@ -582,28 +582,28 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#10</span>
-                <span class="traffic">👗 噓！星聞</span>
+                <span class="traffic">👗 東森電視</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">鄧紫棋驚傳「紐約秘密完婚」！經紀公司回應了</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OZ2pNbmhBS1FQTEI3WGFENDQwVC1WdGJiRDlSNzZOcmx1LWtFTGg4Z1hTUnVnZl9pTFNxcEZrMkNRUTRuWW04YVZsOWs2N0Y2bVNrVUFfNTE0UdIBX0FVX3lxTE9QNjZXUUJfWkxKN2FTTDhhODNyclV2UzVKNTZtZmY0S2RxNUYtUk9tS2JjZUFKVWIyRHBFRDRxWXdaVm1oVUJNZ3o4NEZ2UDlCS3NXc0ItRFFYVzQ3YWs0?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">鄧紫棋爆嫁8年造型師男友！「紐約低調完婚」升格人妻 經紀公司回應了</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE13SVNEcUpzSU1ZbVF0d3ZVZ2taeTYtSXZtdnRmTDVJeG9QREJyVTFvMnBuMUFEUnZRcFJncDI3eXFQN2YwLXJDZTlfSQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#11</span>
-                <span class="traffic">👗 噓！星聞</span>
+                <span class="traffic">👗 ETtoday星光雲</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">全智賢曾拒演「我的野蠻女友」！導演驚爆幕後秘辛　經典橋段竟來自婚姻</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zZm9WRHpLbExDTjRkbmJWclVPdlZVbkJOcWhDZF9EVWx0Vm4wclBTWDR1OHZhbkFFajY0UExPSE00M1BZU1VpQmpYdV9XbTcwWUhwb2xPbThGd9IBX0FVX3lxTE1ONDROdlBjd3ZrVzlvWEhUQnRrUl9fU0pBYy1WZFp2dHpxcXliaWNrTGVXaUJKM3FzTXpvdUNxejMycm16aDBDV3czaHBnWE93Ty1ZUFBMSS05RkRTQm9B?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">《黑澀會》MeiMei淡出演藝圈14年「親揭近況」！滑到一畫面…被釣出留言</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NNkNObVAtQVV3UHh2RlRJVDhJR3JFcnRSVjJ1UElDVXNJVDJxZ0dJZUZCUm9pdEdXYzlWVUgyekdTTkNQUEVrVkU5Mmhyd9IBTEFVX3lxTE14MWE1Z2g3MWg4dkpXVDhldDFnQ3Fia2IwSy1oS2s2TnFJemozV0c4dFI5a0xZT3M3MmYtbVV6MkVZY0c5MTB2RHVXVmg?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#12</span>
-                <span class="traffic">👗 中時新聞網</span>
+                <span class="traffic">👗 噓！星聞</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">58歲張敏0濾鏡近照外洩 昔傳從商失利「現蹤杭州被偶遇」</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9zUkxCWDQ0Z21vRDk2ZEdrVzdtTlBUTXI5SjIxZ1d0N2w1T2NNTzBDYjBuTDdGTTlFZ1ZRMVo3ZV82UlJsSVhTLTlyVjkxdWF1TmZsT3N0Z0RzeDlRVk5PQmdYY3VVZTlDSVpZczZ3?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">全智賢曾拒演「我的野蠻女友」！導演驚爆幕後秘辛　經典橋段竟來自婚姻</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zZm9WRHpLbExDTjRkbmJWclVPdlZVbkJOcWhDZF9EVWx0Vm4wclBTWDR1OHZhbkFFajY0UExPSE00M1BZU1VpQmpYdV9XbTcwWUhwb2xPbThGd9IBX0FVX3lxTE1ONDROdlBjd3ZrVzlvWEhUQnRrUl9fU0pBYy1WZFp2dHpxcXliaWNrTGVXaUJKM3FzTXpvdUNxejMycm16aDBDV3czaHBnWE93Ty1ZUFBMSS05RkRTQm9B?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
@@ -645,15 +645,6 @@
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#17</span>
-                <span class="traffic">👗 GNN 新聞網</span>
-            </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">天使特勤隊 x 杏仁ミル出擊！《女神：守護之約》今日上市 曝光 Vtuber 合作介紹影片</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CLWN4VURhMjdEZnhPUEtmMUp0b2lrZHc5cGRlNC1TWXhXNFByYnBsOFRjcHZRQVNVSXYyd1l5eDBjbmdIRVVCMEN2bmJTX1NZU3RTbVBSNkQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
-        </div>
-        
-        <div class="trend-card">
-            <div class="card-header">
-                <span class="rank">#18</span>
                 <span class="traffic">👗 ETtoday星光雲</span>
             </div>
             <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">周幼婷離婚恢單近況曝光！　「睽違10年復出」2寶媽纖瘦身材驚呆網</h2>
@@ -662,20 +653,29 @@
         
         <div class="trend-card">
             <div class="card-header">
-                <span class="rank">#19</span>
+                <span class="rank">#18</span>
                 <span class="traffic">👗 GNN 新聞網</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">全新手機遊戲《判處勇者刑-Game of the GODDESS-》釋出第二波視覺圖與宣傳片原創角色首次亮相</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ULW10Vl9jN0RRcW0wN0tySU1OUnRJYWFzUFZnbHRZQkRXbTNCQXV1SC1sMjM5cHRzU1ZTMWtJMDRrRy11SUJXUWZvWXNLMXlOM1gxQmlpLWo?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">天使特勤隊 x 杏仁ミル出擊！《女神：守護之約》今日上市 曝光 Vtuber 合作介紹影片</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CLWN4VURhMjdEZnhPUEtmMUp0b2lrZHc5cGRlNC1TWXhXNFByYnBsOFRjcHZRQVNVSXYyd1l5eDBjbmdIRVVCMEN2bmJTX1NZU3RTbVBSNkQ?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+        </div>
+        
+        <div class="trend-card">
+            <div class="card-header">
+                <span class="rank">#19</span>
+                <span class="traffic">👗 玩具人 TOY PEOPLE</span>
+            </div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">鋼彈基地限定鋼普拉『MG 1/100 殘命鋼彈［透明配色］』試作品展出 將於 12 月展開販售！</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rcUloN2owcnVPR3FzRldBeUhxSUJ0elBfUkdqYXNuYmk2SzVpcXZxN21XRUh0cjNFYTFJTktHQ1pXa0lNTldpZzRsNDU?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         
         <div class="trend-card">
             <div class="card-header">
                 <span class="rank">#20</span>
-                <span class="traffic">👗 4Gamers</span>
+                <span class="traffic">👗 GNN 新聞網</span>
             </div>
-            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">《獵人》作者冨樫義博身心不適停接一切「有期限」的工作 今後以漫畫原稿優先</h2>
-            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQQlRGMV90dXpucG1PQnVzUVpBMm9qVllRMDYzSV8zNmNDS1pYTW5OajVhNG9XSi1xZ0JyV3VmS25rczV4Nk9lcTdDQ2NhblFibTlSdTVqWk1aZGpJMEtCekEzdHJpWnFXNUJ0TVlRUzU0czQwbGc5cjBCNWZNcllILU5BMnE1VThHbHMtekJaVFRiMFFNTktJZmtpWlhwcTJPZDhwRjdZdmozYi1IdV9Wdg?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 15px; color: #222;">全新手機遊戲《判處勇者刑-Game of the GODDESS-》釋出第二波視覺圖與宣傳片原創角色首次亮相</h2>
+            <div class="news-links"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ULW10Vl9jN0RRcW0wN0tySU1OUnRJYWFzUFZnbHRZQkRXbTNCQXV1SC1sMjM5cHRzU1ZTMWtJMDRrRy11SUJXUWZvWXNLMXlOM1gxQmlpLWo?oc=5" target="_blank">🔗 閱讀完整內容</a></div>
         </div>
         </div>
         </div>
@@ -688,20 +688,20 @@
 
     <!-- 負責切換標籤的輕量級 JavaScript -->
     <script>
-        function showTab(tabId, btnElement) {
+        function showTab(tabId) {
             // 隱藏所有內容
-            document.querySelectorAll(".tab-content").forEach(tab => {
-                tab.classList.remove("active");
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
             });
             // 取消所有按鈕的選中狀態
-            document.querySelectorAll(".tab-btn").forEach(btn => {
-                btn.classList.remove("active");
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
             });
             
             // 顯示被點擊的內容區塊
-            document.getElementById(tabId).classList.add("active");
-            // 讓被點擊的按鈕變暗色
-            btnElement.classList.add("active");
+            document.getElementById(tabId).classList.add('active');
+            // 讓被點擊的按鈕變暗色 (Active 狀態)
+            event.currentTarget.classList.add('active');
         }
     </script>
 
